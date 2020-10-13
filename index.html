@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main id="container">
+        <form class="showNum">
+          <div class="num-form" id="window"></div>
+          <input type="button" onClick="getInputNum(7)" class="number" id="num7" value="7">
+          <input type="button" onClick="getInputNum(8)" class="number" id="num8" value="8">
+          <input type="button" onClick="getInputNum(9)" class="number" id="num9" value="9">
+          <input type="button" onClick="getInputNum(4)" class="number" id="num4" value="4">
+          <input type="button" onClick="getInputNum(5)" class="number" id="num5" value="5">
+          <input type="button" onClick="getInputNum(6)" class="number" id="num6" value="6">
+          <input type="button" class="number" onClick="getInputNum(1)" id="num1" value="1">
+          <input type="button" onClick="getInputNum(2)" class="number" id="num2" value="2">
+          <input type="button" onClick="getInputNum(3)" class="number" id="num3" value="3">
+          <input type="button" onClick="getInputNum(0)" class="number" id="num0" value="0">
+          <input type="submit" onClick="submitHandler()" id="submit" value="="> 
+        </form>
+      <container class="css-btn">
+        <input type="button" onClick="resetHandler()" class="clear" id="clear" value="C">
+        <input type="button" onClick="getInputOperator('+')" class="operator" id="plus" value="+">
+        <input type="button" onClick="getInputOperator('-')" class="operator" id="minus" value="-">
+        <input type="button" onClick="getInputOperator('*')" class="operator" id="multiply" value="*">
+        <input type="button" onClick="getInputOperator('/')" class="operator" id="divide" value="/">
+      </container>
+    </main>
+    <script src="calculator.js"></script>
+  </body>
+</html>
+
+<!-- <container class="showNum">
+        <div class="number" id="window">asdf</div>
+        <input type="button" class="number" id="num1" value="1">
+        <button><div class="number" id="num2">2</div></button>
+        <button><div class="number" id="num3">3</div></button>
+        <button><div class="number" id="num4">4</div></button>
+        <button><div class="number" id="num5">5</div></button>
+        <button><div class="number" id="num6">6</div></button>
+        <button><div class="number" id="num7">7</div></button>
+        <button><div class="number" id="num8">8</div></button>
+        <button><div class="number" id="num9">9</div></button>
+        <button><div class="number" id="num0">0</div></button>
+        <button><div class="number" id="equal">=</div></button>
+      </container>
+
+      <container class="css-btn">
+        <button><div class="operator" id="clear">C</div></button>
+        <button><div class="operator" id="plus">+</div></button>
+        <button><div class="operator" id="minus">-</div></button>
+        <button><div class="operator" id="multiply">*</div></button>
+        <button><div class="operator" id="divide">/</div></button>
+      </container> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <h1 class="title">Randome Number Game</h1>
+    
+    
+    <h3>Generate a number between 0 and <span id="range">10</span></h3>
+    <input type="range" id="rangeInput" value="0" min="0" max="250"/><br/> 
+      <!-- step 요소로 단위 지정가능 
+    <form>
+      <label for="play">Guess the number: </label>
+      <input type="number" id="numberInput" value="" />
+      <input type="button" id="play" value="Play!" name="play"/>
+    <div id="resultDiv">
+      <p id="now"> You chose: <span id="wrote"></span>, the real answer: <span id="machine"></span></p>
+      <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+ -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Tasks</h1>
+    <form id="formPend">
+      <input type="text" placeholder="Add task">
+      <h2 class="board" id="pending">Pending</h2>
+      <ul id="listPend"></ul>
+    </form>
+
+    <form id="formFin">
+      <h2 class="board" id="finished">Finished</h2>
+      <ul id="listFin"></ul>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
+ -->
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Where are you from?</h1>
+    <select>
+      <option value="">--- Choose Your Country ---</option>
+      <option value="KOREA">Korea</option>
+      <option value="GREECE">Greece</option>
+      <option value="TURKEY">Turkey</option>
+      <option value="FINLAND">Finland</option>
+    </select>
+    <script src="hero.js"></script>
+  </body>
+</html>
+
+ -->
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    
+    <h1>Times until Christmas</h1>
+    <h3 id="time"></h3>
+    <script src="hero.js"></script>
+  </body>
+</html>
+ -->
+
+
+<!-- 
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Our superheroes</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+    <script src="hero.js"></script>
+  </body>
+</html> -->
